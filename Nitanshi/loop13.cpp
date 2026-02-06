@@ -1,23 +1,26 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
- 
-int main{
 
-  int number, count = 0;
-    cout<<"enter no.";
-    cin>>n;
+int main() {
+    int number, count = 0;
 
-    if(number < 0)
-        number = -number;
-    
-    if(number == 0)
-        count = 1;
-    
-    while(number > 0){
-        number = number/10;
-        count++;
+    cout << "Enter number: ";
+    cin >> number;
+
+    if (number < 0) {
+        number = -number;  
     }
-    cout<<count;
+
+    if (number == 0) {
+        count = 1;
+    } else {
+        while (number > 0) {
+            count++;
+            number = number / 10;
+        }
+    }
+
+    cout << count;
 
     return 0;
 }
