@@ -1,0 +1,24 @@
+##Shipping Cost Calculator
+#include<iostream>
+using namespace std;
+int  main(){
+ int basecost=5,pk=2;
+ float travel=0.5;
+ float w,d;
+float shiping_cost,total_weight,total_distance;
+
+ cout<<"enter the weight of package in kg range 1 ≤ w ≤ 10⁷; :"<<endl;
+ cin>>w;
+
+ cout<<"enter the distance travelled in km range 1 ≤ d ≤ 10⁷ :"<<endl;
+ cin>>d;
+ 
+ total_weight=(w*pk);
+ cout<<"the rate per  total weight is : "<<total_weight<<endl;
+ total_distance=(d*0.5);
+ cout<<"the rate per total distance is :"<<total_distance<<endl;
+ shiping_cost=basecost+total_distance+total_weight;
+ cout<<"the total shiping cost is:"<<shiping_cost<<endl;
+ 
+ return 0;
+}
