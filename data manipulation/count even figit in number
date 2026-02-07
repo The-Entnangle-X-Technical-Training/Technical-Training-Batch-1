@@ -1,0 +1,16 @@
+takeNum = int(input("enter the  4 digit number:"))
+firstNum = takeNum // 1000
+middleNum1 =takeNum //10%10
+middleNum2 = takeNum //100 %10
+
+lastNum = takeNum % 10
+count = 0
+if firstNum % 2 == 0:
+    count += 1
+if middleNum1 % 2 == 0:
+    count += 1
+if middleNum2 % 2 == 0:
+    count += 1
+if lastNum % 2 == 0:
+    count += 1
+print("the count of even number is:", count)
