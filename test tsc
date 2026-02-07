@@ -15,7 +15,7 @@ float shiping_cost,total_weight,total_distance;
  
  total_weight=(w*pk);
  cout<<"the rate per  total weight is : "<<total_weight<<endl;
- total_distance=(d*0.5);
+ total_distance=(d/10)*0.5;
  cout<<"the rate per total distance is :"<<total_distance<<endl;
  shiping_cost=basecost+total_distance+total_weight;
  cout<<"the total shiping cost is:"<<shiping_cost<<endl;
