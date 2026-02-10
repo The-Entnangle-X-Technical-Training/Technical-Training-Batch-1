@@ -7,8 +7,9 @@
 using namespace std;
 
 int main() {
-    double salary;
-    int rating, yearsOfService;
+    double salary =0.0;
+    int rating =0;
+    int yearsOfService =0;
 
     cout << "Enter current salary: ";
     cin >> salary;
@@ -40,4 +41,5 @@ int main() {
     cout << "New salary after increment: " << newSalary << endl;
 
     return 0;
+
 }
