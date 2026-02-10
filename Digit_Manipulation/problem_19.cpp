@@ -7,7 +7,8 @@
 using namespace std;
 
 int main() {
-    int number, sumOfDigits = 0;
+    int number =0;
+    int sumOfDigits = 0;
     cout << "Enter a 3-digit number: ";
     cin >> number;
 
@@ -24,4 +25,5 @@ int main() {
     }
 
     return 0;
+
 }
