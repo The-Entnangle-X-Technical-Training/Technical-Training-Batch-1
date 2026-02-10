@@ -1,0 +1,2 @@
+cout<<"finalPrice:";
+    // cin>>finalprice;
