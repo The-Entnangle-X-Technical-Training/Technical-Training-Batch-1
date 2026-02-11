@@ -1,0 +1,5 @@
+seconds=int(input("Enter the seconds: "))
+minute=(seconds//60)
+hour=(seconds//3600)
+print("The seconds in minutes are: ", minute,"min")
+print("The seconds in hours are: ", hour,"hr")
