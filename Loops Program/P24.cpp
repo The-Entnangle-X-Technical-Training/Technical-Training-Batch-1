@@ -1,0 +1,20 @@
+//24: Print All Numbers Divisible by 3 (1 to N)
+
+#include<iostream>
+using namespace std;
+
+int main(){
+
+    int N=0;
+    cout<<"N=";
+    cin>>N;
+
+    int i=1;
+    while(i <=N){
+        if(i % 3 == 0){
+        cout << i << " ";
+        }
+
+        i++;
+}
+}
