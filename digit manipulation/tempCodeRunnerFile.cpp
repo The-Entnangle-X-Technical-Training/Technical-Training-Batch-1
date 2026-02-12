@@ -1,0 +1,1 @@
+firstnumber = number/10;
